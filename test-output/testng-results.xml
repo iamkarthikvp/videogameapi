@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="APITesting" duration-ms="2029" started-at="2019-10-12T13:20:06Z" finished-at="2019-10-12T13:20:08Z">
+    <groups>
+    </groups>
+    <test name="API Test" duration-ms="2029" started-at="2019-10-12T13:20:06Z" finished-at="2019-10-12T13:20:08Z">
+      <class name="testAPI.Apicheck">
+        <test-method status="PASS" signature="test_allgames()[pri:0, instance:testAPI.Apicheck@880ec60]" name="test_allgames" duration-ms="1296" started-at="2019-10-12T18:50:06Z" finished-at="2019-10-12T18:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_allgames -->
+        <test-method status="PASS" signature="addnewgame()[pri:0, instance:testAPI.Apicheck@880ec60]" name="addnewgame" duration-ms="308" started-at="2019-10-12T18:50:08Z" finished-at="2019-10-12T18:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addnewgame -->
+        <test-method status="PASS" signature="getame()[pri:0, instance:testAPI.Apicheck@880ec60]" name="getame" duration-ms="350" started-at="2019-10-12T18:50:08Z" finished-at="2019-10-12T18:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getame -->
+        <test-method status="PASS" signature="updategame()[pri:0, instance:testAPI.Apicheck@880ec60]" name="updategame" duration-ms="47" started-at="2019-10-12T18:50:08Z" finished-at="2019-10-12T18:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updategame -->
+        <test-method status="PASS" signature="deletegame()[pri:0, instance:testAPI.Apicheck@880ec60]" name="deletegame" duration-ms="17" started-at="2019-10-12T18:50:08Z" finished-at="2019-10-12T18:50:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletegame -->
+      </class> <!-- testAPI.Apicheck -->
+    </test> <!-- API Test -->
+  </suite> <!-- APITesting -->
+</testng-results>
