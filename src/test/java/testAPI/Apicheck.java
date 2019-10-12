@@ -87,7 +87,7 @@ public class Apicheck {
 
 		Response res=	given()
 			.when()
-			.delete("http://localhost:8080/app/videogames/120")
+			.delete("http://localhost:8080/app/videogames/123")
 			.then()
 			.statusCode(200)
 			.log().body()
